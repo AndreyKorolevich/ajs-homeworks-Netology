@@ -1,0 +1,23 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyKorolevich/ajs-homeworks-Netology.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreyKorolevich/ajs-homeworks-Netology/issues"
+  },
+  "homepage": "https://github.com/AndreyKorolevich/ajs-homeworks-Netology#readme"
+}
