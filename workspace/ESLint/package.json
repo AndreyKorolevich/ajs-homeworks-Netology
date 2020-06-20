@@ -1,20 +1,16 @@
 {
-  "name": "defender-game",
+  "name": "es-lint",
   "version": "1.0.0",
-  "description": "Browser based game",
+  "description": "Install eslint",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src -d dist",
     "lint": "eslint ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AndreyKorolevich/ajs-homeworks-Netology.git"
   },
-  "keywords": [
-    "game"
-  ],
   "author": "Andrew",
   "license": "ISC",
   "bugs": {
