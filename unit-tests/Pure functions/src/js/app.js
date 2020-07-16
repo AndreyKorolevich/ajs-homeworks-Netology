@@ -3,7 +3,7 @@
     return 'healthy'
   } else  if( 15 < health && health <= 50 ) {
     return 'wounded'
-  } else if (health < 15) {
+  } else {
     return 'critical'
   }
 }

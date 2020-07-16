@@ -1,7 +1,7 @@
 import player from '../app';
 
 test('comparison number', () => {
-  const result = player({name: 'Маг', health: 90});
+  const result = player({name: 'Маг', health: 500});
 
   expect(result).toBe('healthy');
 });
@@ -39,7 +39,7 @@ test('comparison number', () => {
 test('comparison number', () => {
   const result = player({name: 'Маг', health: 15});
 
-  expect(result).toBe(undefined);
+  expect(result).toBe('critical');
 });
 
 test('comparison number', () => {
@@ -48,15 +48,11 @@ test('comparison number', () => {
   expect(result).toBe('critical');
 });
 
+
 test('comparison number', () => {
-  const result = player({name: 'Маг', health: 8});
+  const result = player({name: 'Маг', health: -100});
 
   expect(result).toBe('critical');
 });
 
-test('comparison number', () => {
-  const result = player({name: 'Маг', health: 0});
-
-  expect(result).toBe('critical');
-});
 
