@@ -28,9 +28,6 @@ export default class Cart {
   }
 
   deleteBuy(id:number) :void {
-    this._items = this._items.filter((item:Buyable) => {
-        if(item.id !== id)  return true
-        else return false
-      })
+    this._items = this._items.filter((item:Buyable) => item.id !== id)
   }
 }
